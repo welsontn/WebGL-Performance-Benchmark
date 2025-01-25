@@ -52,13 +52,13 @@ We accomplished our goal of prototyping a new way of benchmarking graphics perfo
 
 <p>When the test is completed we use the D3.js library to display a graph of the data collected. The general graph trend will have a stair step pattern to it with each stair step indicating another frame that was needed in order to process the current number of objects. Having more objects that can be added before each stair step in the graph indicates a better performing graphics card.</p>
 
-<p><a href="http://luic.github.io/WebGL-Performance-Benchmark/benchmark/fillpixel-nozbuffer.html">Pixel Fill Rate Z-buffering Disabled</a></p>
+<p><a href="./benchmark/fillpixel-nozbuffer.html">Pixel Fill Rate Z-buffering Disabled</a></p>
 
-<p><a href="http://luic.github.io/WebGL-Performance-Benchmark/benchmark/fillpixel-zbuffer.html">Pixel Fill Rate Z-buffering Enabled</a></p>
+<p><a href="./benchmark/fillpixel-zbuffer.html">Pixel Fill Rate Z-buffering Enabled</a></p>
 
 <p>We also have a cubes benchmark that attempts to keep the frames per second (FPS) within a specified range, and will increase the amount of cubes in the scene if the FPS is too high, or decrease the cubes if the FPS is too low.</p>
 
-<p><a href="http://luic.github.io/WebGL-Performance-Benchmark/benchmark/cubes.html">Cubes Benchmark</a></p>
+<p><a href="./benchmark/cubes.html">Cubes Benchmark</a></p>
 
 <p>Note: for the most consistent benchmark results, don't run other intensive applications while attempting to benchmark your system. Also, switching web browser tabs while running the benchmark may affect your results due to the web browser changing the priority of the benchmark process.
 </p>
@@ -73,17 +73,5 @@ We accomplished our goal of prototyping a new way of benchmarking graphics perfo
         <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
       </footer>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		          <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-39053518-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
   </body>
 </html>

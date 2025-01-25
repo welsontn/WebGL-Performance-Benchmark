@@ -41,7 +41,7 @@
 		var targetFPS = 50;			//highest fps before adding objects
 		var varyFPS = targetFPS / 10;		//allowed range of FPS
 		var lowestFPS = targetFPS - varyFPS;	//lowest FPS before taking out objects
-		var startVal = 50;			//starting object number
+		var startVal = 200;			//starting object number
 		var removeNum = startVal;		//mesh array position, for removing objects
 		var container, stats;
 		var camera, scene, renderer;
@@ -49,8 +49,8 @@
 		var meshes = new Array(numObjects);
 		var colors = new Array(numObjects);
 		var addFlag = 0;			// -1 = remove, 1 = add, 0 = nothing
-		var waitFrames = 0;			// wait time between adding/removing objects
-		var waitTime = 10;			// amount of frames to wait
+		var waitFrames = 60;			// wait time between adding/removing objects
+		var waitTime = 1;			// amount of frames to wait
 		
 		
 		
